@@ -33,5 +33,5 @@ app.get('/', (req, res) => {
 // listen for requests
 require('./app/routes/note.routes.js')(app);
 app.listen(PORT, () => {
-    console.log("Server is listening on port 3000");
+    console.log("Server is listening on port 5000");
 });
